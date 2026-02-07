@@ -5,6 +5,7 @@ A professional, modern, and fully responsive portfolio website designed to showc
 🚀 Live Demo
 You can view the live website here: itssaeedahmad.github.io
 
+
 ✨ Features
 Responsive Design: Fully optimized for all screen sizes, from large desktops to mobile devices.
 
@@ -24,6 +25,7 @@ Contact Integration: Functional contact form powered by EmailJS for direct messa
 
 Modern Styling: Utilizes CSS Flexbox, Grid, and custom animations for a polished look.
 
+
 🛠️ Built With
 HTML5: Semantic structure.
 
@@ -34,6 +36,8 @@ JavaScript (ES6+): Logic for theme switching, mobile menu, and scroll observers.
 Font Awesome: For scalable vector icons.
 
 EmailJS: For handling client-side form submissions.
+
+
 
 📁 Project Structure
 index.html - The main entry point and structure of the site.
@@ -47,12 +51,15 @@ images/ - Directory for local assets (profile picture, favicon, project screensh
 🔧 Installation & Setup
 Clone the repository:
 
-Bash
+```Bash
 git clone https://github.com/itssaeedahmad/itssaeedahmad.github.io.git
 Navigate to the directory:
+```
 
-Bash
+```Bash
 cd itssaeedahmad.github.io
+```
+
 Open the project: Simply open index.html in your preferred web browser.
 
 📬 Contact Me
