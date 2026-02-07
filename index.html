@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Saeed Ahmad - Front-End Developer</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-code"></i> Saeed
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><button class="theme-toggle" id="themeToggle" title="Toggle Dark Mode"><i class="fas fa-moon"></i></button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Hi, I'm <span class="highlight">Muhammad Saeed Ahmad</span></h1>
+            <p class="hero-subtitle">Front-End Developer | Web Designer</p>
+            <p class="hero-description">Creating stunning, responsive, and user-friendly web experiences using HTML, CSS, and JavaScript</p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-dot"></div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-placeholder">
+                <img src="images/Saeed.jpeg" alt="Muhammad Saeed Ahmad">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="section-header">
+            <h2>About Me</h2>
+            <div class="header-line"></div>
+        </div>
+        <div class="about-container">
+            <div class="about-text">
+                <p class="fade-in-up">
+                    Hello! I'm a passionate front-end developer with 5+ years of experience creating beautiful and responsive web interfaces. I specialize in HTML, CSS, and JavaScript to bring designs to life.
+                </p>
+                <p class="fade-in-up">
+                    My journey in front-end development started with a curiosity about how websites look and feel, and it has evolved into a career dedicated to building engaging user experiences.
+                </p>
+                <p class="fade-in-up">
+                    When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying outdoor activities.
+                </p>
+                <div class="about-info">
+                    <div class="info-item fade-in-up">
+                        <span class="label">Experience:</span>
+                        <span class="value">2+ Years</span>
+                    </div>
+                    <div class="info-item fade-in-up">
+                        <span class="label">Specialization:</span>
+                        <span class="value">Front-End Development</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <div class="image-placeholder large">
+                    <img src="images/Saeed.jpeg" alt="Muhammad Saeed Ahmad">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="section-header">
+            <h2>My Skills</h2>
+            <div class="header-line"></div>
+        </div>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Frontend Technologies</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-bar-wrapper">
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                            <span class="skill-level">95%</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>CSS3 & SasS</span>
+                        </div>
+                        <div class="skill-bar-wrapper">
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%"></div>
+                            </div>
+                            <span class="skill-level">92%</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>JavaScript (ES6+)</span>
+                        </div>
+                        <div class="skill-bar-wrapper">
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                            <span class="skill-level">88%</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Responsive Design</span>
+                        </div>
+                        <div class="skill-bar-wrapper">
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                            <span class="skill-level">90%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="section-header">
+            <h2>My Portfolio</h2>
+            <div class="header-line"></div>
+        </div>
+        <div class="portfolio-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="website">Websites</button>
+            <button class="filter-btn" data-filter="landing">Landing Pages</button>
+            <button class="filter-btn" data-filter="component">Components</button>
+        </div>
+        <div class="portfolio-grid">
+            <div class="portfolio-item" data-category="website">
+                <div class="portfolio-image">
+                    <img src="images/portfolio.png" alt="Portfolio Website">
+                    <div class="overlay">
+                        <a href="#home" target="_blank" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/itssaeedahmad/itssaeedahmad.github.io" target="_blank" class="code-link"><i class="fas fa-code"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Portfolio Website</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item" data-category="website">
+                <div class="portfolio-image">
+                    <img src="https://via.placeholder.com/300x200/764ba2/ffffff?text=Website+2" alt="Blog Website">
+                    <div class="overlay">
+                        <a href="#" class="portfolio-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" class="code-link" target="_blank"><i class="fas fa-code"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Blog Website</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item" data-category="landing">
+                <div class="portfolio-image">
+                    <img src="images/nova.png" alt="SaaS Landing Page">
+                    <div class="overlay">
+                        <a href="https://itssaeedahmad.github.io/Nova-Landing-Page/" target="_blank" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/itssaeedahmad/nova" target="_blank" class="code-link"><i class="fas fa-code"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Nova - SaaS Landing Page</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item" data-category="component">
+                <div class="portfolio-image">
+                    <img src="https://via.placeholder.com/300x200/4facfe/ffffff?text=Component" alt="Interactive Component Library">
+                    <div class="overlay">
+                        <a href="#" target="_blank" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" target="_blank" class="code-link"><i class="fas fa-code"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Component Library</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item" data-category="landing">
+                <div class="portfolio-image">
+                    <img src="https://via.placeholder.com/300x200/00f2fe/ffffff?text=Landing+Page+2" alt="E-Commerce Landing Page">
+                    <div class="overlay">
+                        <a href="#" target="_blank" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" target="_blank" class="code-link"><i class="fas fa-code"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-content">
+                    <h3>E-Commerce Landing</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item" data-category="website">
+                <div class="portfolio-image">
+                    <img src="https://via.placeholder.com/300x200/43e97b/ffffff?text=Website+3" alt="Business Website">
+                    <div class="overlay">
+                        <a href="#" target="_blank" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" target="_blank" class="code-link"><i class="fas fa-code"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Business Website</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="section-header">
+            <h2>My Services</h2>
+            <div class="header-line"></div>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Responsive Web Design</h3>
+                <p>Create beautiful, fully responsive websites that look perfect on all devices and screen sizes.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-rocket"></i>
+                </div>
+                <h3>Landing Pages</h3>
+                <p>High-converting landing pages designed to drive engagement and achieve your business goals.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <h3>UI/UX Design</h3>
+                <p>Beautiful and intuitive user interfaces that combine aesthetics with excellent user experience.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-cube"></i>
+                </div>
+                <h3>Interactive Components</h3>
+                <p>Custom interactive components and animations that engage users and bring your site to life.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <h3>Mobile-First Development</h3>
+                <p>Websites optimized for mobile devices first, ensuring excellent performance on smartphones.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-sync-alt"></i>
+                </div>
+                <h3>Website Redesign</h3>
+                <p>Transform your existing website with modern design trends and improved functionality.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <h2>Get In Touch</h2>
+            <div class="header-line"></div>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-box">
+                    <div class="info-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p>muhammadsaeedahmad121@gmail.com</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/itssaeedahmad" class="social-link" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+
+                    <a href="https://www.upwork.com/freelancers/~0163cd4498f4ee04ec?viewMode=1" class="social-link upwork-link" title="Upwork" target="_blank" rel="noopener noreferrer">
+                        <svg viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+                                <path d="M345.516 181.708c-42.168 0-65.774 27.481-72.532 55.773-7.658-14.416-13.335-33.698-17.75-51.628H196.94v72.531c0 26.31-11.984 45.772-35.41 45.772-23.427 0-36.852-19.462-36.852-45.772l.27-72.531H91.34v72.531c0 21.174 6.848 40.366 19.372 54.061 12.884 14.146 30.454 21.534 50.817 21.534 40.545 0 68.837-31.085 68.837-75.595V209.64c4.235 16.038 14.326 46.853 33.608 73.884l-18.02 102.625h34.148l11.893-72.712c3.875 3.244 8.02 6.127 12.434 8.74 11.443 7.208 24.508 11.263 38.023 11.713 0 0 2.073.09 3.154.09 41.807 0 75.054-32.346 75.054-76.045 0-43.7-33.337-76.226-75.144-76.226m0 122.358c-25.86 0-42.979-20.003-47.754-27.752 6.127-49.015 24.057-64.512 47.754-64.512 23.426 0 41.626 18.741 41.626 46.132 0 27.39-18.2 46.132-41.626 46.132" fill="currentColor" fill-rule="nonzero"/>
+                        </svg>
+                    </a>
+
+                    <a href="https://instagram.com/saeed_ahmad1979" class="social-link" title="Instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+
+                    <a href="https://stackoverflow.com/users/31208690/muhammad-saeed-ahmad" class="social-link" title="Stack Overflow" target="_blank" rel="noopener noreferrer"><i class="fab fa-stack-overflow"></i></a>
+                </div>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" name="user_name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="user_email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+                <p class="form-message" id="formMessage"></p>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Muhammad Saeed Ahmad. All rights reserved.</p>
+            <p>Designed & Developed by Muhammad Saeed Ahmad</p>
+        </div>
+        <div class="scroll-top">
+            <button id="scrollTopBtn" class="scroll-top-btn">
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </footer>
+
+     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
